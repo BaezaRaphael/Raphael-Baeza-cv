@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "about": "About",
+    "journey": "Journey",
+    "skills": "Skills",
+    "projects": "Projects",
+    "passions": "Passions",
+    "contact": "Contact",
+    "downloadCV": "Download CV"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Raphael Baeza",
+    "tagline": "Student — Developer — Curious",
+    "subtitle": "Welcome to my personal space. Explore my journey, my projects, and what drives me.",
+    "scrollHint": "Scroll"
+  },
+  "about": {
+    "title": "About",
+    "kicker": "Who am I?",
+    "p1": "I'm Raphael, passionate about technology and building products that matter.",
+    "p2": "I designed and coded this entire site myself — every line, every animation, every word. It's a playground and a proof of what I can do.",
+    "p3": "I learn fast, dig deep, and turn ideas into things you can touch."
+  },
+  "journey": {
+    "title": "Journey",
+    "kicker": "How I got here",
+    "items": [
+      {
+        "date": "2024 — Now",
+        "title": "Current studies",
+        "place": "School / University",
+        "description": "Description of current studies. To replace with real details."
+      },
+      {
+        "date": "2023",
+        "title": "Previous experience",
+        "place": "Company / Internship",
+        "description": "Experience description. To replace."
+      },
+      {
+        "date": "2022",
+        "title": "First step",
+        "place": "High school / Diploma",
+        "description": "Where it all started. To replace."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "kicker": "What I can do",
+    "categories": [
+      {
+        "name": "Technical",
+        "items": ["Python", "JavaScript / TypeScript", "React / Next.js", "Git", "SQL"]
+      },
+      {
+        "name": "Languages",
+        "items": ["French — Native", "English — Fluent", "Spanish — Basics"]
+      },
+      {
+        "name": "Soft skills",
+        "items": ["Curiosity", "Autonomy", "Communication", "Teamwork", "Adaptability"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "kicker": "What I've built",
+    "items": [
+      {
+        "name": "This site",
+        "tags": ["Next.js", "Framer Motion", "TypeScript"],
+        "description": "The site you're looking at. Designed, developed, and deployed by me.",
+        "link": "https://github.com/"
+      },
+      {
+        "name": "Project 2",
+        "tags": ["To fill"],
+        "description": "Description of another project to replace.",
+        "link": "#"
+      },
+      {
+        "name": "Project 3",
+        "tags": ["To fill"],
+        "description": "Description of another project to replace.",
+        "link": "#"
+      }
+    ]
+  },
+  "passions": {
+    "title": "Passions",
+    "kicker": "What lights me up",
+    "items": [
+      {
+        "title": "Passion 1",
+        "description": "A passion to elaborate on — sports, music, travel, cooking, games..."
+      },
+      {
+        "title": "Passion 2",
+        "description": "Another passion worth telling."
+      },
+      {
+        "title": "Passion 3",
+        "description": "And one more, because life is more than work."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "kicker": "Let's talk",
+    "subtitle": "A question, a project, an opportunity? Reach out.",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "downloadCV": "Download my CV"
+  },
+  "footer": {
+    "madeWith": "Designed and coded by Raphael Baeza",
+    "year": "2026"
+  }
+}

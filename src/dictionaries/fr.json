@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "about": "À propos",
+    "journey": "Parcours",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "passions": "Passions",
+    "contact": "Contact",
+    "downloadCV": "Télécharger CV"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis",
+    "name": "Raphael Baeza",
+    "tagline": "Étudiant — Développeur — Curieux",
+    "subtitle": "Bienvenue sur mon espace personnel. Découvrez mon parcours, mes projets et ce qui m'anime.",
+    "scrollHint": "Faites défiler"
+  },
+  "about": {
+    "title": "À propos",
+    "kicker": "Qui suis-je ?",
+    "p1": "Je suis Raphael, passionné par la technologie et la création de produits qui ont du sens.",
+    "p2": "Ce site, je l'ai conçu et codé moi-même — chaque ligne, chaque animation, chaque mot. C'est un terrain d'expression et une preuve de ce que je sais faire.",
+    "p3": "J'aime apprendre vite, comprendre en profondeur, et transformer une idée en quelque chose qu'on peut toucher."
+  },
+  "journey": {
+    "title": "Parcours",
+    "kicker": "Mon chemin jusqu'ici",
+    "items": [
+      {
+        "date": "2024 — Aujourd'hui",
+        "title": "Formation en cours",
+        "place": "École / Université",
+        "description": "Description de la formation actuelle. À remplacer par les vrais détails."
+      },
+      {
+        "date": "2023",
+        "title": "Expérience précédente",
+        "place": "Entreprise / Stage",
+        "description": "Description de l'expérience. À remplacer."
+      },
+      {
+        "date": "2022",
+        "title": "Première étape",
+        "place": "Lycée / Bac",
+        "description": "Le début de l'aventure. À remplacer."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Compétences",
+    "kicker": "Ce que je sais faire",
+    "categories": [
+      {
+        "name": "Technique",
+        "items": ["Python", "JavaScript / TypeScript", "React / Next.js", "Git", "SQL"]
+      },
+      {
+        "name": "Langues",
+        "items": ["Français — Natif", "Anglais — Courant", "Espagnol — Notions"]
+      },
+      {
+        "name": "Soft skills",
+        "items": ["Curiosité", "Autonomie", "Communication", "Travail d'équipe", "Adaptation"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projets",
+    "kicker": "Ce que j'ai construit",
+    "items": [
+      {
+        "name": "Ce site",
+        "tags": ["Next.js", "Framer Motion", "TypeScript"],
+        "description": "Le site que vous regardez. Conçu, développé et déployé par moi-même.",
+        "link": "https://github.com/"
+      },
+      {
+        "name": "Projet 2",
+        "tags": ["À remplir"],
+        "description": "Description d'un autre projet à remplacer.",
+        "link": "#"
+      },
+      {
+        "name": "Projet 3",
+        "tags": ["À remplir"],
+        "description": "Description d'un autre projet à remplacer.",
+        "link": "#"
+      }
+    ]
+  },
+  "passions": {
+    "title": "Passions",
+    "kicker": "Ce qui me fait vibrer",
+    "items": [
+      {
+        "title": "Passion 1",
+        "description": "Une passion à détailler — sport, musique, voyages, cuisine, jeux..."
+      },
+      {
+        "title": "Passion 2",
+        "description": "Une autre passion à raconter."
+      },
+      {
+        "title": "Passion 3",
+        "description": "Et encore une, parce que la vie c'est plus que le boulot."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "kicker": "Discutons",
+    "subtitle": "Une question, un projet, une opportunité ? N'hésitez pas.",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "downloadCV": "Télécharger mon CV"
+  },
+  "footer": {
+    "madeWith": "Conçu et codé par Raphael Baeza",
+    "year": "2026"
+  }
+}
