@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
 import { useState } from 'react';
 import type { Locale } from '@/app/[lang]/dictionaries';
+import ThemeToggle from './ThemeToggle';
 
 type NavDict = {
   about: string;
@@ -44,25 +45,22 @@ export default function Navbar({ dict, currentLang }: { dict: NavDict; currentLa
       transition={{ duration: 0.6, ease: 'easeOut' }}
       className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
         scrolled
-          ? 'backdrop-blur-xl bg-black/40 border-b border-white/5'
+          ? 'backdrop-blur-xl bg-nav-bg border-b border-border-soft'
           : 'bg-transparent'
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link
           href={`/${currentLang}`}
-          className="text-sm font-mono tracking-tight text-white hover:opacity-70 transition-opacity"
+          className="text-sm font-mono tracking-tight text-foreground hover:opacity-70 transition-opacity"
         >
           RB.
         </Link>
 
-        <ul className="hidden md:flex items-center gap-8 text-sm text-zinc-300">
+        <ul className="hidden md:flex items-center gap-8 text-sm text-muted">
           {links.map((link) => (
             <li key={link.href}>
-              <a
-                href={link.href}
-                className="hover:text-white transition-colors"
-              >
+              <a href={link.href} className="hover:text-foreground transition-colors">
                 {link.label}
               </a>
             </li>
@@ -72,14 +70,15 @@ export default function Navbar({ dict, currentLang }: { dict: NavDict; currentLa
         <div className="flex items-center gap-3">
           <Link
             href={switchPath}
-            className="text-xs font-mono uppercase tracking-wider text-zinc-400 hover:text-white transition-colors"
+            className="text-xs font-mono uppercase tracking-wider text-subtle hover:text-foreground transition-colors"
           >
             {currentLang === 'fr' ? 'EN' : 'FR'}
           </Link>
+          <ThemeToggle />
           <a
             href="/cv.pdf"
             download
-            className="hidden sm:inline-block text-xs px-4 py-2 rounded-full border border-white/20 text-white hover:bg-white hover:text-black transition-all"
+            className="hidden sm:inline-block text-xs px-4 py-2 rounded-full border border-border-strong text-foreground hover:bg-accent hover:text-accent-foreground hover:border-accent transition-all"
           >
             {dict.downloadCV}
           </a>

@@ -6,6 +6,7 @@ import { hasLocale, locales, getDictionary, type Locale } from './dictionaries';
 import SmoothScroll from '@/components/ui/SmoothScroll';
 import Navbar from '@/components/ui/Navbar';
 import ScrollProgress from '@/components/ui/ScrollProgress';
+import ThemeScript from '@/components/ui/ThemeScript';
 
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] });
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] });
@@ -32,8 +33,11 @@ export default async function LangLayout({
   const dict = await getDictionary(lang as Locale);
 
   return (
-    <html lang={lang} className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body className="min-h-screen">
+    <html lang={lang} className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
+      <head>
+        <ThemeScript />
+      </head>
+      <body className="min-h-screen bg-background text-foreground">
         <SmoothScroll>
           <ScrollProgress />
           <Navbar dict={dict.nav} currentLang={lang as Locale} />

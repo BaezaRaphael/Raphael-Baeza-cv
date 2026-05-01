@@ -17,7 +17,7 @@ export default function Contact({
   return (
     <section id="contact" className="py-32 px-6 max-w-5xl mx-auto">
       <Reveal>
-        <p className="text-xs font-mono uppercase tracking-[0.3em] text-zinc-500 mb-4">
+        <p className="text-xs font-mono uppercase tracking-[0.3em] text-subtle mb-4">
           {dict.kicker}
         </p>
       </Reveal>
@@ -27,22 +27,22 @@ export default function Contact({
         </h2>
       </Reveal>
       <Reveal delay={0.2}>
-        <p className="text-lg md:text-xl text-zinc-400 mb-16 max-w-2xl">{dict.subtitle}</p>
+        <p className="text-lg md:text-xl text-muted mb-16 max-w-2xl">{dict.subtitle}</p>
       </Reveal>
 
-      <div className="space-y-px border-t border-white/10">
+      <div className="space-y-px border-t border-border-soft">
         {links.map((link, i) => (
           <Reveal key={link.label} delay={0.3 + i * 0.1}>
             <a
               href={link.href}
               target={link.href.startsWith('http') ? '_blank' : undefined}
               rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-              className="group flex items-center justify-between py-6 border-b border-white/10 hover:border-white/30 transition-colors"
+              className="group flex items-center justify-between py-6 border-b border-border-soft hover:border-border-strong transition-colors"
             >
-              <span className="text-xs font-mono uppercase tracking-[0.3em] text-zinc-500">
+              <span className="text-xs font-mono uppercase tracking-[0.3em] text-subtle">
                 {link.label}
               </span>
-              <span className="text-lg md:text-xl text-white group-hover:translate-x-[-4px] transition-transform">
+              <span className="text-lg md:text-xl text-foreground group-hover:translate-x-[-4px] transition-transform">
                 {link.value} →
               </span>
             </a>
@@ -55,11 +55,11 @@ export default function Contact({
           <a
             href="/cv.pdf"
             download
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white text-black text-sm font-medium hover:bg-zinc-200 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-accent text-accent-foreground text-sm font-medium hover:opacity-85 transition-opacity"
           >
             ↓ {dict.downloadCV}
           </a>
-          <p className="text-xs font-mono text-zinc-600">
+          <p className="text-xs font-mono text-subtle">
             © {footer.year} — {footer.madeWith}
           </p>
         </div>

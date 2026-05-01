@@ -30,7 +30,7 @@ export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-sm font-mono uppercase tracking-[0.3em] text-zinc-500 mb-6"
+          className="text-sm font-mono uppercase tracking-[0.3em] text-subtle mb-6"
         >
           {dict.greeting}
         </motion.p>
@@ -58,7 +58,7 @@ export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 1.2 }}
-          className="text-lg md:text-xl text-zinc-400 mb-4"
+          className="text-lg md:text-xl text-muted mb-4"
         >
           {dict.tagline}
         </motion.p>
@@ -67,7 +67,7 @@ export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 1.4 }}
-          className="text-base text-zinc-500 max-w-xl mx-auto"
+          className="text-base text-subtle max-w-xl mx-auto"
         >
           {dict.subtitle}
         </motion.p>
@@ -77,13 +77,13 @@ export default function Hero({ dict }: { dict: Dictionary['hero'] }) {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.8 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-zinc-500"
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-subtle"
       >
         <span className="text-xs font-mono uppercase tracking-[0.3em]">{dict.scrollHint}</span>
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 1.8, repeat: Infinity, ease: 'easeInOut' }}
-          className="w-px h-8 bg-gradient-to-b from-zinc-500 to-transparent"
+          className="w-px h-8 bg-gradient-to-b from-subtle to-transparent"
         />
       </motion.div>
     </section>
