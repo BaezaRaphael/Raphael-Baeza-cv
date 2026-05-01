@@ -10,8 +10,8 @@ export default function Contact({
 }) {
   const links = [
     { label: dict.email, href: 'mailto:raph.baeza13@gmail.com', value: 'raph.baeza13@gmail.com' },
-    { label: dict.linkedin, href: 'https://linkedin.com/', value: '@raphaelbaeza' },
-    { label: dict.github, href: 'https://github.com/', value: '@raphaelbaeza' },
+    { label: dict.linkedin, href: 'https://linkedin.com/', value: 'https://www.linkedin.com/in/rapha%C3%ABl-ba%C3%ABza/' },
+    { label: dict.github, href: 'https://github.com/', value: '@https://github.com/BaezaRaphael' },
   ];
 
   return (
