@@ -53,7 +53,7 @@ export default function Contact({
       <Reveal delay={0.6}>
         <div className="mt-16 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
           <a
-            href="/cv.pdf"
+            href="/CV-Raphael-Baeza.pdf"
             download
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-accent text-accent-foreground text-sm font-medium hover:opacity-85 transition-opacity"
           >
