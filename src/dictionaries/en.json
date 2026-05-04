@@ -4,45 +4,63 @@
     "journey": "Journey",
     "skills": "Skills",
     "projects": "Projects",
-    "passions": "Passions",
+    "passions": "Hobbies",
     "contact": "Contact",
     "downloadCV": "Download CV"
   },
   "hero": {
-    "greeting": "Hi, I'm",
-    "name": "Raphael Baeza",
-    "tagline": "Student — Developer — Curious",
+    "greeting": "Welcome, I'm",
+    "name": "Raphaël Baëza",
+    "tagline": "Product Manager — Strong tech background — Bridge between business and engineering",
     "subtitle": "Welcome to my personal space. Explore my journey, my projects, and what drives me.",
     "scrollHint": "Scroll"
   },
   "about": {
     "title": "About",
     "kicker": "Who am I?",
-    "p1": "I'm Raphael, passionate about technology and building products that matter.",
-    "p2": "I designed and coded this entire site myself — every line, every animation, every word. It's a playground and a proof of what I can do.",
-    "p3": "I learn fast, dig deep, and turn ideas into things you can touch."
+    "p1": "I'm Raphaël, a Product Manager with a strong technical background. I started in networking and cybersecurity before moving into managing complex digital projects. This hybrid path lets me understand both the constraints of engineering teams and business stakes — and act as a real bridge between them.",
+    "p2": "I've worked on blockchain platforms, international real-estate digitization, and highly regulated environments.",
+    "p3": "What drives me: turning fuzzy ideas into concrete products, with tight-knit teams and delivery that holds up its promises."
   },
   "journey": {
     "title": "Journey",
     "kicker": "How I got here",
     "items": [
       {
-        "date": "2024 — Now",
-        "title": "Current studies",
-        "place": "School / University",
-        "description": "Description of current studies. To replace with real details."
+        "date": "2024 — 2025",
+        "title": "Product Manager & Product Owner — Freelance",
+        "place": "Paris · iGaming platform (blockchain, smart contracts)",
+        "description": "End-to-end leadership of a blockchain-based iGaming platform with smart contracts. Scoping, multi-team coordination (engineering, design, QA, marketing, ops), spec writing (API, smart contracts), pre-prod testing (Postman, UI walkthroughs), and international releases with stakeholders across multiple countries. Set up a transparent communication framework to defuse internal tensions and build real team cohesion. Tools: Jira, Confluence, Figma, Slack, Postman."
       },
       {
-        "date": "2023",
-        "title": "Previous experience",
-        "place": "Company / Internship",
-        "description": "Experience description. To replace."
+        "date": "2023 — 2024",
+        "title": "Scrum Master — Freelance",
+        "place": "Furo · Paris / Los Angeles · Real-estate investment digitization platform (USA)",
+        "description": "Structured agile processes for a team split across two time zones to digitize investment in US construction projects. Process owner, communication facilitator, dependency and sync management. Tools: Jira, Confluence, Notion, Slack."
       },
       {
-        "date": "2022",
-        "title": "First step",
-        "place": "High school / Diploma",
-        "description": "Where it all started. To replace."
+        "date": "December 2023",
+        "title": "Sales Advisor — Chocolats Alain Ducasse",
+        "place": "Paris",
+        "description": "A deliberate detour during my career transition — working at a top-tier maison. Attention to detail, sense of service, premium client relations. A short but formative experience: care given to every interaction, with a client or a stakeholder, makes all the difference."
+      },
+      {
+        "date": "2022 — 2023",
+        "title": "Project Manager & Production Assistant — Protectman",
+        "place": "Meudon · Anti-fall safety systems (height work, treetop adventure courses)",
+        "description": "Introduced agile practices from scratch in an SMB specialized in regulated safety equipment. Team coordination, direct relationship with leadership, wearing multiple hats: facilitator, coordinator, proactive contributor. Tools: Shopify, Jira, Confluence, HTML, CSS."
+      },
+      {
+        "date": "2020 — 2022",
+        "title": "Systems & Network Engineer — Tribord",
+        "place": "Paris",
+        "description": "Managing network infrastructure (VPN, firewalls, switches), internal and client support. First taste of project management: explaining tech to non-tech stakeholders, coordinating interventions, proposing improvements. Tools: O365, Cisco, Windows Server, Monitoring."
+      },
+      {
+        "date": "2016 — 2020",
+        "title": "Support Technician then Network Administrator — Midrange",
+        "place": "Paris · Datacenter operations (Equinix) & car dealerships",
+        "description": "4 years building hands-on skills: level 2 and 3 troubleshooting, datacenter ops at Equinix, network infrastructure deployments. The solid technical foundation everything else was built on."
       }
     ]
   },
@@ -51,58 +69,81 @@
     "kicker": "What I can do",
     "categories": [
       {
+        "name": "Project management & delivery",
+        "description": "End-to-end ownership, planning, KPI tracking, risk and dependency management, stakeholder reporting, budget management, releases."
+      },
+      {
+        "name": "Agile methods",
+        "description": "Scrum, Kanban, SAFe — facilitating ceremonies, backlog management, roadmap, sprint planning."
+      },
+      {
+        "name": "Tools",
+        "items": ["Jira", "Confluence", "Figma", "Notion", "Slack", "Asana", "Shopify", "Trello", "Postman"]
+      },
+      {
         "name": "Technical",
-        "items": ["Python", "JavaScript / TypeScript", "React / Next.js", "Git", "SQL"]
+        "items": [
+          "Networking & infrastructure (VPN, firewall, switches)",
+          "Continuous integration / CI-CD",
+          "Blockchain / Smart contracts",
+          "HTML · CSS",
+          "Basics of Next.js & Supabase"
+        ]
       },
       {
         "name": "Languages",
-        "items": ["French — Native", "English — Fluent", "Spanish — Basics"]
+        "items": ["French — Native", "English — C1"]
       },
       {
-        "name": "Soft skills",
-        "items": ["Curiosity", "Autonomy", "Communication", "Teamwork", "Adaptability"]
+        "name": "Certifications",
+        "items": [
+          "PSM I (Scrum.org, 2023)",
+          "Master in IT Engineering Management (ITESCIA, 2020)",
+          "Entrepreneurship & SMB Management (Université Laval, Québec, 2020)"
+        ]
       }
     ]
   },
   "projects": {
     "title": "Projects",
-    "kicker": "What I've built",
+    "kicker": "What I'm building",
     "items": [
       {
+        "name": "PDF-App",
+        "tags": ["Next.js", "Supabase", "Claude API", "TypeScript"],
+        "description": "Full-stack web app for fitness and nutrition (in development). Upload PDFs of training programs or recipes, AI extracts structured data automatically (ingredients, shopping lists, exercises). A side-project blending tech and physical optimization.",
+        "link": "https://github.com/BaezaRaphael"
+      },
+      {
         "name": "This site",
-        "tags": ["Next.js", "Framer Motion", "TypeScript"],
-        "description": "The site you're looking at. Designed, developed, and deployed by me.",
-        "link": "https://github.com/"
-      },
-      {
-        "name": "Project 2",
-        "tags": ["To fill"],
-        "description": "Description of another project to replace.",
-        "link": "#"
-      },
-      {
-        "name": "Project 3",
-        "tags": ["To fill"],
-        "description": "Description of another project to replace.",
-        "link": "#"
+        "tags": ["Next.js 16", "Framer Motion", "TypeScript", "Tailwind"],
+        "description": "The site you're looking at. Designed, developed, and deployed by me — Apple-style animations, FR/EN switch, dark/light mode, hosted on Vercel.",
+        "link": "https://github.com/BaezaRaphael/Raphael-Baeza-cv"
       }
     ]
   },
   "passions": {
-    "title": "Passions",
+    "title": "Hobbies",
     "kicker": "What lights me up",
+    "intro": "I've always been into sports, across all disciplines. From mountain hiking to team sports, with more individual practices in between — I'm up for anything. I love both rediscovering familiar feelings and trying something new.",
     "items": [
       {
-        "title": "Passion 1",
-        "description": "A passion to elaborate on — sports, music, travel, cooking, games..."
+        "title": "Basketball",
+        "description": "Certified FFBB referee at department level and coach. Basketball taught me to read team play, make fast decisions under pressure, and understand how each role matters within a team.",
+        "image": "/images/hobby-basketball.jpg",
+        "alt": "Basketball"
       },
       {
-        "title": "Passion 2",
-        "description": "Another passion worth telling."
+        "title": "Video games & board games",
+        "description": "A passion since childhood. I enjoy diving into a great solo game just as much as joining a multiplayer match. Board games hold a special place: there's something irreplaceable about sitting around a table — I love revisiting classics as much as discovering new titles.",
+        "image": "/images/hobby-games.jpg",
+        "alt": "Video games and board games"
       },
       {
-        "title": "Passion 3",
-        "description": "And one more, because life is more than work."
+        "title": "History",
+        "description": "History fascinates me as a whole — from the earliest civilizations to the modern era. Understanding how the world was built, the decisions that changed everything, the events no one saw coming. A way to stay alert to the world around us.",
+        "image": "/images/hobby-history.jpg",
+        "alt": "History and heritage"
       }
     ]
   },
@@ -116,7 +157,7 @@
     "downloadCV": "Download my CV"
   },
   "footer": {
-    "madeWith": "Designed and coded by Raphael Baeza",
+    "madeWith": "Designed and coded by Raphaël Baëza",
     "year": "2026"
   }
 }

@@ -4,45 +4,63 @@
     "journey": "Parcours",
     "skills": "Compétences",
     "projects": "Projets",
-    "passions": "Passions",
+    "passions": "Hobbies",
     "contact": "Contact",
     "downloadCV": "Télécharger CV"
   },
   "hero": {
     "greeting": "Bienvenue, je suis",
     "name": "Raphaël Baëza",
-    "tagline": "Étudiant — Développeur — Curieux",
+    "tagline": "Product Manager — Culture technique — Pont entre métiers et tech",
     "subtitle": "Bienvenue sur mon espace personnel. Découvrez mon parcours, mes projets et ce qui m'anime.",
     "scrollHint": "Faites défiler"
   },
   "about": {
     "title": "À propos",
     "kicker": "Qui suis-je ?",
-    "p1": "Je suis Raphael, passionné par la technologie et la création de produits qui ont du sens.",
-    "p2": "Ce site, je l'ai conçu et codé moi-même — chaque ligne, chaque animation, chaque mot. C'est un terrain d'expression et une preuve de ce que je sais faire.",
-    "p3": "J'aime apprendre vite, comprendre en profondeur, et transformer une idée en quelque chose qu'on peut toucher."
+    "p1": "Je suis Raphaël, Product Manager avec une forte culture technique, passé par les réseaux et la cybersécurité avant de piloter des projets digitaux complexes. Ce parcours hybride me permet de comprendre aussi bien les contraintes des équipes techniques que les enjeux métiers — et d'être un vrai pont entre les deux.",
+    "p2": "J'ai travaillé sur des plateformes blockchain, de la digitalisation immobilière à l'international, et des environnements fortement réglementés.",
+    "p3": "Ce qui me motive : transformer des idées floues en produits concrets, avec des équipes soudées et une delivery qui tient ses promesses."
   },
   "journey": {
     "title": "Parcours",
     "kicker": "Mon chemin jusqu'ici",
     "items": [
       {
-        "date": "2024 — Aujourd'hui",
-        "title": "Formation en cours",
-        "place": "École / Université",
-        "description": "Description de la formation actuelle. À remplacer par les vrais détails."
+        "date": "2024 — 2025",
+        "title": "Product Manager & Product Owner — Freelance",
+        "place": "Paris · Plateforme iGaming (blockchain, smart contracts)",
+        "description": "Pilotage end-to-end de la création d'une plateforme iGaming sur blockchain avec smart contracts. Cadrage, coordination d'équipes pluridisciplinaires (tech, design, QA, marketing, admin), rédaction des specs (API, smart contracts), tests pré-prod (Postman, navigation interface), et MEP internationales avec intervenants multi-pays. Mise en place d'un cadre de communication transparent pour résoudre des tensions internes et créer une vraie cohésion d'équipe. Outils : Jira, Confluence, Figma, Slack, Postman."
       },
       {
-        "date": "2023",
-        "title": "Expérience précédente",
-        "place": "Entreprise / Stage",
-        "description": "Description de l'expérience. À remplacer."
+        "date": "2023 — 2024",
+        "title": "Scrum Master — Freelance",
+        "place": "Furo · Paris / Los Angeles · Plateforme de digitalisation de l'investissement immobilier (USA)",
+        "description": "Structuration des processus agiles d'une équipe répartie entre deux fuseaux horaires pour digitaliser l'investissement dans des projets de construction américains. Garant du cadre, facilitateur des échanges, gestion des dépendances et synchronisation. Outils : Jira, Confluence, Notion, Slack."
       },
       {
-        "date": "2022",
-        "title": "Première étape",
-        "place": "Lycée / Bac",
-        "description": "Le début de l'aventure. À remplacer."
+        "date": "Décembre 2023",
+        "title": "Conseiller de Vente — Chocolats Alain Ducasse",
+        "place": "Paris",
+        "description": "Parenthèse volontaire pendant ma transition professionnelle dans une maison d'excellence. Exigence du détail, sens du service, relation client haut de gamme. Une expérience courte mais marquante : le soin apporté à chaque interaction fait toute la différence."
+      },
+      {
+        "date": "2022 — 2023",
+        "title": "Project Manager & Assistant de Production — Protectman",
+        "place": "Meudon · Systèmes anti-chute (travaux en hauteur, accrobranche)",
+        "description": "Introduction des pratiques agiles from scratch dans une PME spécialisée en équipements de sécurité réglementés. Coordination d'équipes, proximité directe avec la direction, polyvalence : facilitateur, coordinateur, force de proposition. Outils : Shopify, Jira, Confluence, HTML, CSS."
+      },
+      {
+        "date": "2020 — 2022",
+        "title": "Ingénieur Administrateur Systèmes & Réseaux — Tribord",
+        "place": "Paris",
+        "description": "Gestion des infrastructures réseau (VPN, firewalls, switches), support interne et client. Premières expériences de gestion de projet : vulgarisation technique, coordination d'interventions, propositions d'améliorations. Outils : O365, Cisco, Windows Server, Monitoring."
+      },
+      {
+        "date": "2016 — 2020",
+        "title": "Technicien Support puis Administrateur Réseaux — Midrange",
+        "place": "Paris · Interventions datacenter (Equinix) & concessions automobiles",
+        "description": "4 ans à monter en compétences sur le terrain : résolution de problèmes niveau 2 et 3, interventions datacenter chez Equinix, déploiement d'infrastructures réseau. La base technique solide sur laquelle tout le reste s'est construit."
       }
     ]
   },
@@ -51,58 +69,81 @@
     "kicker": "Ce que je sais faire",
     "categories": [
       {
+        "name": "Gestion de projet & delivery",
+        "description": "Pilotage end-to-end, plannings, suivi KPI, gestion des risques et dépendances, reporting parties prenantes, gestion du budget, MEP."
+      },
+      {
+        "name": "Méthodes agiles",
+        "description": "Scrum, Kanban, SAFe — animation des cérémonies, backlog management, roadmap, sprints."
+      },
+      {
+        "name": "Outils",
+        "items": ["Jira", "Confluence", "Figma", "Notion", "Slack", "Asana", "Shopify", "Trello", "Postman"]
+      },
+      {
         "name": "Technique",
-        "items": ["Python", "JavaScript / TypeScript", "React / Next.js", "Git", "SQL"]
+        "items": [
+          "Réseaux & infrastructure (VPN, firewall, switches)",
+          "Intégration continue / CI-CD",
+          "Blockchain / Smart contracts",
+          "HTML · CSS",
+          "Bases en Next.js & Supabase"
+        ]
       },
       {
         "name": "Langues",
-        "items": ["Français — Natif", "Anglais — Courant", "Espagnol — Notions"]
+        "items": ["Français — Natif", "Anglais — C1"]
       },
       {
-        "name": "Soft skills",
-        "items": ["Curiosité", "Autonomie", "Communication", "Travail d'équipe", "Adaptation"]
+        "name": "Certifications",
+        "items": [
+          "PSM I (Scrum.org, 2023)",
+          "Master Manager Ingénierie Informatique (ITESCIA, 2020)",
+          "Entrepreneuriat & Gestion de PME (Université Laval, Québec, 2020)"
+        ]
       }
     ]
   },
   "projects": {
     "title": "Projets",
-    "kicker": "Ce que j'ai construit",
+    "kicker": "Ce que je construis",
     "items": [
       {
+        "name": "PDF-App",
+        "tags": ["Next.js", "Supabase", "Claude API", "TypeScript"],
+        "description": "Application web full-stack de fitness et nutrition (en cours de développement). Upload de PDFs de programmes sportifs ou recettes, l'IA extrait automatiquement les données structurées (ingrédients, listes de courses, exercices). Un side-project qui mêle tech et optimisation physique.",
+        "link": "https://github.com/BaezaRaphael"
+      },
+      {
         "name": "Ce site",
-        "tags": ["Next.js", "Framer Motion", "TypeScript"],
-        "description": "Le site que vous regardez. Conçu, développé et déployé par moi-même.",
-        "link": "https://github.com/"
-      },
-      {
-        "name": "Projet 2",
-        "tags": ["À remplir"],
-        "description": "Description d'un autre projet à remplacer.",
-        "link": "#"
-      },
-      {
-        "name": "Projet 3",
-        "tags": ["À remplir"],
-        "description": "Description d'un autre projet à remplacer.",
-        "link": "#"
+        "tags": ["Next.js 16", "Framer Motion", "TypeScript", "Tailwind"],
+        "description": "Le site que vous regardez. Conçu, développé et déployé par moi-même — animations type Apple, switch FR/EN, dark/light mode, hébergé sur Vercel.",
+        "link": "https://github.com/BaezaRaphael/Raphael-Baeza-cv"
       }
     ]
   },
   "passions": {
-    "title": "Passions",
+    "title": "Hobbies",
     "kicker": "Ce qui me fait vibrer",
+    "intro": "J'ai toujours été quelqu'un de sportif, toutes disciplines confondues. De la randonnée en montagne aux sports collectifs, en passant par des pratiques plus individuelles — je suis partant pour tout. J'aime autant retrouver des sensations connues que découvrir quelque chose de nouveau.",
     "items": [
       {
-        "title": "Passion 1",
-        "description": "Une passion à détailler — sport, musique, voyages, cuisine, jeux..."
+        "title": "Basketball",
+        "description": "Arbitre certifié FFBB au niveau départemental et coach. Le basketball m'a appris la lecture du jeu collectif, la prise de décision rapide sous pression, et l'importance du rôle de chacun dans une équipe.",
+        "image": "/images/hobby-basketball.jpg",
+        "alt": "Ballon de basketball"
       },
       {
-        "title": "Passion 2",
-        "description": "Une autre passion à raconter."
+        "title": "Jeux vidéo & jeux de société",
+        "description": "Une passion depuis l'enfance. J'aime aussi bien m'immerger dans un bon jeu solo que rejoindre une partie multijoueur. Les jeux de société ont une place à part : il y a quelque chose d'irremplaçable dans le fait de se retrouver autour d'une table, et j'aime autant retrouver des classiques que découvrir de nouveaux titres.",
+        "image": "/images/hobby-games.jpg",
+        "alt": "Jeux vidéo et jeux de société"
       },
       {
-        "title": "Passion 3",
-        "description": "Et encore une, parce que la vie c'est plus que le boulot."
+        "title": "Histoire",
+        "description": "L'Histoire me fascine dans sa globalité — des premières civilisations jusqu'à l'ère moderne. Comprendre comment le monde s'est construit, les décisions qui ont tout changé, les événements qu'on n'aurait pas cru possibles. Une façon de rester éveillé sur le monde qui nous entoure.",
+        "image": "/images/hobby-history.jpg",
+        "alt": "Histoire et patrimoine"
       }
     ]
   },
@@ -116,7 +157,7 @@
     "downloadCV": "Télécharger mon CV"
   },
   "footer": {
-    "madeWith": "Conçu et codé par Raphael Baeza",
+    "madeWith": "Conçu et codé par Raphaël Baëza",
     "year": "2026"
   }
 }
