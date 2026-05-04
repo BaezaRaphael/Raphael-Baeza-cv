@@ -4,7 +4,7 @@ import type { Dictionary } from '@/app/[lang]/dictionaries';
 
 export default function Passions({ dict }: { dict: Dictionary['passions'] }) {
   return (
-    <section id="passions" className="py-32 px-6 max-w-6xl mx-auto relative">
+    <section id="passions" className="py-32 px-6 max-w-5xl mx-auto relative">
       <div className="absolute inset-0 gradient-radial pointer-events-none" />
       <div className="relative">
         <Reveal>
