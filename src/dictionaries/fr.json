@@ -25,18 +25,21 @@
   "journey": {
     "title": "Parcours",
     "kicker": "Mon chemin jusqu'ici",
+    "toolsLabel": "Outils",
     "items": [
       {
         "date": "2024 — 2025",
         "title": "Product Manager & Product Owner — Freelance",
         "place": "Paris · Plateforme iGaming (blockchain, smart contracts)",
-        "description": "Pilotage end-to-end de la création d'une plateforme iGaming sur blockchain avec smart contracts. Cadrage, coordination d'équipes pluridisciplinaires (tech, design, QA, marketing, admin), rédaction des specs (API, smart contracts), tests pré-prod (Postman, navigation interface), et MEP internationales avec intervenants multi-pays. Mise en place d'un cadre de communication transparent pour résoudre des tensions internes et créer une vraie cohésion d'équipe. Outils : Jira, Confluence, Figma, Slack, Postman."
+        "description": "Pilotage end-to-end de la création d'une plateforme iGaming sur blockchain avec smart contracts. Cadrage, coordination d'équipes pluridisciplinaires (tech, design, QA, marketing, admin), rédaction des specs (API, smart contracts), tests pré-prod (Postman, navigation interface), et MEP internationales avec intervenants multi-pays. Mise en place d'un cadre de communication transparent pour résoudre des tensions internes et créer une vraie cohésion d'équipe.",
+        "tools": "Jira · Confluence · Figma · Slack · Postman"
       },
       {
         "date": "2023 — 2024",
         "title": "Scrum Master — Freelance",
         "place": "Furo · Paris / Los Angeles · Plateforme de digitalisation de l'investissement immobilier (USA)",
-        "description": "Structuration des processus agiles d'une équipe répartie entre deux fuseaux horaires pour digitaliser l'investissement dans des projets de construction américains. Garant du cadre, facilitateur des échanges, gestion des dépendances et synchronisation. Outils : Jira, Confluence, Notion, Slack."
+        "description": "Structuration des processus agiles d'une équipe répartie entre deux fuseaux horaires pour digitaliser l'investissement dans des projets de construction américains. Garant du cadre, facilitateur des échanges, gestion des dépendances et synchronisation.",
+        "tools": "Jira · Confluence · Notion · Slack"
       },
       {
         "date": "Décembre 2023",
@@ -48,13 +51,15 @@
         "date": "2022 — 2023",
         "title": "Project Manager & Assistant de Production — Protectman",
         "place": "Meudon · Systèmes anti-chute (travaux en hauteur, accrobranche)",
-        "description": "Introduction des pratiques agiles from scratch dans une PME spécialisée en équipements de sécurité réglementés. Coordination d'équipes, proximité directe avec la direction, polyvalence : facilitateur, coordinateur, force de proposition. Outils : Shopify, Jira, Confluence, HTML, CSS."
+        "description": "Introduction des pratiques agiles from scratch dans une PME spécialisée en équipements de sécurité réglementés. Coordination d'équipes, proximité directe avec la direction, polyvalence : facilitateur, coordinateur, force de proposition.",
+        "tools": "Shopify · Jira · Confluence · HTML · CSS"
       },
       {
         "date": "2020 — 2022",
         "title": "Ingénieur Administrateur Systèmes & Réseaux — Tribord",
         "place": "Paris",
-        "description": "Gestion des infrastructures réseau (VPN, firewalls, switches), support interne et client. Premières expériences de gestion de projet : vulgarisation technique, coordination d'interventions, propositions d'améliorations. Outils : O365, Cisco, Windows Server, Monitoring."
+        "description": "Gestion des infrastructures réseau (VPN, firewalls, switches), support interne et client. Premières expériences de gestion de projet : vulgarisation technique, coordination d'interventions, propositions d'améliorations.",
+        "tools": "O365 · Cisco · Windows Server · Monitoring"
       },
       {
         "date": "2016 — 2020",
@@ -70,11 +75,26 @@
     "categories": [
       {
         "name": "Gestion de projet & delivery",
-        "description": "Pilotage end-to-end, plannings, suivi KPI, gestion des risques et dépendances, reporting parties prenantes, gestion du budget, MEP."
+        "items": [
+          "Pilotage end-to-end",
+          "Plannings & roadmap",
+          "Suivi KPI",
+          "Gestion des risques et dépendances",
+          "Reporting parties prenantes",
+          "Gestion du budget",
+          "Mise en production"
+        ]
       },
       {
         "name": "Méthodes agiles",
-        "description": "Scrum, Kanban, SAFe — animation des cérémonies, backlog management, roadmap, sprints."
+        "items": [
+          "Scrum",
+          "Kanban",
+          "SAFe",
+          "Animation des cérémonies",
+          "Backlog management",
+          "Roadmap & sprints"
+        ]
       },
       {
         "name": "Outils",
@@ -113,19 +133,12 @@
         "tags": ["Next.js", "Supabase", "Claude API", "TypeScript"],
         "description": "Application web full-stack de fitness et nutrition (en cours de développement). Upload de PDFs de programmes sportifs ou recettes, l'IA extrait automatiquement les données structurées (ingrédients, listes de courses, exercices). Un side-project qui mêle tech et optimisation physique.",
         "link": "https://github.com/BaezaRaphael"
-      },
-      {
-        "name": "Ce site",
-        "tags": ["Next.js 16", "Framer Motion", "TypeScript", "Tailwind"],
-        "description": "Le site que vous regardez. Conçu, développé et déployé par moi-même — animations type Apple, switch FR/EN, dark/light mode, hébergé sur Vercel.",
-        "link": "https://github.com/BaezaRaphael/Raphael-Baeza-cv"
       }
     ]
   },
   "passions": {
     "title": "Hobbies",
     "kicker": "Ce qui me fait vibrer",
-    "intro": "J'ai toujours été quelqu'un de sportif, toutes disciplines confondues. De la randonnée en montagne aux sports collectifs, en passant par des pratiques plus individuelles — je suis partant pour tout. J'aime autant retrouver des sensations connues que découvrir quelque chose de nouveau.",
     "items": [
       {
         "title": "Basketball",

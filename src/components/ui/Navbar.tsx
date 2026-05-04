@@ -68,12 +68,12 @@ export default function Navbar({ dict, currentLang }: { dict: NavDict; currentLa
         </ul>
 
         <div className="flex items-center gap-3">
-          <Link
+          <a
             href={switchPath}
             className="text-xs font-mono uppercase tracking-wider text-subtle hover:text-foreground transition-colors"
           >
             {currentLang === 'fr' ? 'EN' : 'FR'}
-          </Link>
+          </a>
           <ThemeToggle />
           <a
             href="/CV-Raphael-Baeza.pdf"

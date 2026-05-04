@@ -48,6 +48,14 @@ export default function Journey({ dict }: { dict: Dictionary['journey'] }) {
                 <p className="text-base text-muted max-w-2xl leading-relaxed">
                   {item.description}
                 </p>
+                {'tools' in item && item.tools && (
+                  <p className="text-sm text-subtle mt-3 max-w-2xl">
+                    <span className="font-mono uppercase tracking-[0.15em] text-xs mr-2">
+                      {dict.toolsLabel} :
+                    </span>
+                    {item.tools}
+                  </p>
+                )}
               </div>
             </Reveal>
           ))}

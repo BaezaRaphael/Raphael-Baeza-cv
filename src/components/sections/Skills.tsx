@@ -16,32 +16,23 @@ export default function Skills({ dict }: { dict: Dictionary['skills'] }) {
       </Reveal>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {dict.categories.map((cat, i) => {
-          const hasItems = 'items' in cat && Array.isArray(cat.items);
-          return (
-            <Reveal key={cat.name} delay={i * 0.08}>
-              <div className="p-8 rounded-2xl border border-border-soft bg-card hover:bg-card-hover hover:border-border-strong transition-all duration-300 h-full">
-                <h3 className="text-xs font-mono uppercase tracking-[0.2em] text-subtle mb-6">
-                  {cat.name}
-                </h3>
-                {hasItems ? (
-                  <ul className="space-y-3">
-                    {(cat as { items: string[] }).items.map((item) => (
-                      <li key={item} className="text-base text-foreground flex items-start gap-2">
-                        <span className="w-1 h-1 rounded-full bg-muted mt-2.5 shrink-0" />
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                ) : (
-                  <p className="text-base text-foreground leading-relaxed">
-                    {(cat as { description: string }).description}
-                  </p>
-                )}
-              </div>
-            </Reveal>
-          );
-        })}
+        {dict.categories.map((cat, i) => (
+          <Reveal key={cat.name} delay={i * 0.08}>
+            <div className="p-8 rounded-2xl border border-border-soft bg-card hover:bg-card-hover hover:border-border-strong transition-all duration-300 h-full">
+              <h3 className="text-xs font-mono uppercase tracking-[0.2em] text-subtle mb-6">
+                {cat.name}
+              </h3>
+              <ul className="space-y-3">
+                {cat.items.map((item) => (
+                  <li key={item} className="text-base text-foreground flex items-start gap-2">
+                    <span className="w-1 h-1 rounded-full bg-muted mt-2.5 shrink-0" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </Reveal>
+        ))}
       </div>
     </section>
   );

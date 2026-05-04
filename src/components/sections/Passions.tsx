@@ -13,18 +13,10 @@ export default function Passions({ dict }: { dict: Dictionary['passions'] }) {
           </p>
         </Reveal>
         <Reveal delay={0.1}>
-          <h2 className="text-4xl md:text-6xl font-bold tracking-tight mb-8 text-gradient">
+          <h2 className="text-4xl md:text-6xl font-bold tracking-tight mb-16 text-gradient">
             {dict.title}
           </h2>
         </Reveal>
-
-        {dict.intro && (
-          <Reveal delay={0.2}>
-            <p className="text-lg md:text-xl text-muted leading-relaxed max-w-3xl mb-16">
-              {dict.intro}
-            </p>
-          </Reveal>
-        )}
 
         <div className="grid md:grid-cols-3 gap-8">
           {dict.items.map((p, i) => (

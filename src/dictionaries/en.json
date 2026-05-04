@@ -25,18 +25,21 @@
   "journey": {
     "title": "Journey",
     "kicker": "How I got here",
+    "toolsLabel": "Tools",
     "items": [
       {
         "date": "2024 — 2025",
         "title": "Product Manager & Product Owner — Freelance",
         "place": "Paris · iGaming platform (blockchain, smart contracts)",
-        "description": "End-to-end leadership of a blockchain-based iGaming platform with smart contracts. Scoping, multi-team coordination (engineering, design, QA, marketing, ops), spec writing (API, smart contracts), pre-prod testing (Postman, UI walkthroughs), and international releases with stakeholders across multiple countries. Set up a transparent communication framework to defuse internal tensions and build real team cohesion. Tools: Jira, Confluence, Figma, Slack, Postman."
+        "description": "End-to-end leadership of a blockchain-based iGaming platform with smart contracts. Scoping, multi-team coordination (engineering, design, QA, marketing, ops), spec writing (API, smart contracts), pre-prod testing (Postman, UI walkthroughs), and international releases with stakeholders across multiple countries. Set up a transparent communication framework to defuse internal tensions and build real team cohesion.",
+        "tools": "Jira · Confluence · Figma · Slack · Postman"
       },
       {
         "date": "2023 — 2024",
         "title": "Scrum Master — Freelance",
         "place": "Furo · Paris / Los Angeles · Real-estate investment digitization platform (USA)",
-        "description": "Structured agile processes for a team split across two time zones to digitize investment in US construction projects. Process owner, communication facilitator, dependency and sync management. Tools: Jira, Confluence, Notion, Slack."
+        "description": "Structured agile processes for a team split across two time zones to digitize investment in US construction projects. Process owner, communication facilitator, dependency and sync management.",
+        "tools": "Jira · Confluence · Notion · Slack"
       },
       {
         "date": "December 2023",
@@ -48,13 +51,15 @@
         "date": "2022 — 2023",
         "title": "Project Manager & Production Assistant — Protectman",
         "place": "Meudon · Anti-fall safety systems (height work, treetop adventure courses)",
-        "description": "Introduced agile practices from scratch in an SMB specialized in regulated safety equipment. Team coordination, direct relationship with leadership, wearing multiple hats: facilitator, coordinator, proactive contributor. Tools: Shopify, Jira, Confluence, HTML, CSS."
+        "description": "Introduced agile practices from scratch in an SMB specialized in regulated safety equipment. Team coordination, direct relationship with leadership, wearing multiple hats: facilitator, coordinator, proactive contributor.",
+        "tools": "Shopify · Jira · Confluence · HTML · CSS"
       },
       {
         "date": "2020 — 2022",
         "title": "Systems & Network Engineer — Tribord",
         "place": "Paris",
-        "description": "Managing network infrastructure (VPN, firewalls, switches), internal and client support. First taste of project management: explaining tech to non-tech stakeholders, coordinating interventions, proposing improvements. Tools: O365, Cisco, Windows Server, Monitoring."
+        "description": "Managing network infrastructure (VPN, firewalls, switches), internal and client support. First taste of project management: explaining tech to non-tech stakeholders, coordinating interventions, proposing improvements.",
+        "tools": "O365 · Cisco · Windows Server · Monitoring"
       },
       {
         "date": "2016 — 2020",
@@ -70,11 +75,26 @@
     "categories": [
       {
         "name": "Project management & delivery",
-        "description": "End-to-end ownership, planning, KPI tracking, risk and dependency management, stakeholder reporting, budget management, releases."
+        "items": [
+          "End-to-end ownership",
+          "Planning & roadmap",
+          "KPI tracking",
+          "Risk and dependency management",
+          "Stakeholder reporting",
+          "Budget management",
+          "Production releases"
+        ]
       },
       {
         "name": "Agile methods",
-        "description": "Scrum, Kanban, SAFe — facilitating ceremonies, backlog management, roadmap, sprint planning."
+        "items": [
+          "Scrum",
+          "Kanban",
+          "SAFe",
+          "Facilitating ceremonies",
+          "Backlog management",
+          "Roadmap & sprints"
+        ]
       },
       {
         "name": "Tools",
@@ -113,19 +133,12 @@
         "tags": ["Next.js", "Supabase", "Claude API", "TypeScript"],
         "description": "Full-stack web app for fitness and nutrition (in development). Upload PDFs of training programs or recipes, AI extracts structured data automatically (ingredients, shopping lists, exercises). A side-project blending tech and physical optimization.",
         "link": "https://github.com/BaezaRaphael"
-      },
-      {
-        "name": "This site",
-        "tags": ["Next.js 16", "Framer Motion", "TypeScript", "Tailwind"],
-        "description": "The site you're looking at. Designed, developed, and deployed by me — Apple-style animations, FR/EN switch, dark/light mode, hosted on Vercel.",
-        "link": "https://github.com/BaezaRaphael/Raphael-Baeza-cv"
       }
     ]
   },
   "passions": {
     "title": "Hobbies",
     "kicker": "What lights me up",
-    "intro": "I've always been into sports, across all disciplines. From mountain hiking to team sports, with more individual practices in between — I'm up for anything. I love both rediscovering familiar feelings and trying something new.",
     "items": [
       {
         "title": "Basketball",
