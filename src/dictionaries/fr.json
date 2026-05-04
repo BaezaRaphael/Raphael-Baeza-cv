@@ -132,7 +132,9 @@
         "name": "PDF-App",
         "tags": ["Next.js", "Supabase", "Claude API", "TypeScript"],
         "description": "Application web full-stack de fitness et nutrition (en cours de développement). Upload de PDFs de programmes sportifs ou recettes, l'IA extrait automatiquement les données structurées (ingrédients, listes de courses, exercices). Un side-project qui mêle tech et optimisation physique.",
-        "link": "https://github.com/BaezaRaphael"
+        "link": "https://github.com/BaezaRaphael",
+        "image": "/images/pdf-app-screenshot.png",
+        "imageAlt": "Capture d'écran du tableau de bord PDF-App"
       }
     ]
   },
