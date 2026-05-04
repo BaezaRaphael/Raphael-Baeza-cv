@@ -15,14 +15,16 @@ const TOOL_LOGO_MAP: Record<string, string> = {
 };
 
 // Bento layout per dict-order:
-// 0 Gestion · 1 Agile · 2 Outils (tall) · 3 Tech · 4 Langues · 5 Certifications
+// 0 Gestion · 1 Agile · 2 Outils (logos)
+// 3 Technique (wide) · 4 Langues
+// 5 Certifications (full width)
 const BENTO_LAYOUT = [
   'md:col-span-1',
   'md:col-span-1',
-  'md:col-span-1 md:row-span-2',
-  'md:col-span-2',
   'md:col-span-1',
   'md:col-span-2',
+  'md:col-span-1',
+  'md:col-span-3',
 ];
 
 export default function Skills({ dict }: { dict: Dictionary['skills'] }) {
@@ -39,7 +41,7 @@ export default function Skills({ dict }: { dict: Dictionary['skills'] }) {
         </h2>
       </Reveal>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:auto-rows-[minmax(180px,1fr)]">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {dict.categories.map((cat, i) => {
           const isToolsCard = i === 2;
           const span = BENTO_LAYOUT[i] ?? 'md:col-span-1';
@@ -62,16 +64,16 @@ export default function Skills({ dict }: { dict: Dictionary['skills'] }) {
                 </h3>
 
                 {isToolsCard ? (
-                  <div className="grid grid-cols-3 gap-4">
+                  <div className="grid grid-cols-3 gap-3">
                     {cat.items.map((tool) => {
                       const logo = TOOL_LOGO_MAP[tool.toLowerCase()];
                       return (
                         <div
                           key={tool}
-                          className="flex flex-col items-center justify-center gap-2 p-3 rounded-xl bg-white/[0.03] border border-white/5 hover:bg-white/[0.06] hover:scale-105 transition-all duration-200"
+                          className="flex flex-col items-center justify-center gap-1.5 py-3 px-2 rounded-xl bg-white/[0.03] border border-white/5 hover:bg-white/[0.06] hover:scale-105 transition-all duration-200"
                         >
                           {logo && (
-                            <div className="w-8 h-8 relative">
+                            <div className="w-7 h-7 relative">
                               <Image
                                 src={logo}
                                 alt={`${tool} logo`}
@@ -80,7 +82,7 @@ export default function Skills({ dict }: { dict: Dictionary['skills'] }) {
                               />
                             </div>
                           )}
-                          <span className="text-[11px] text-zinc-300 font-medium">{tool}</span>
+                          <span className="text-[10px] text-zinc-300 font-medium">{tool}</span>
                         </div>
                       );
                     })}
@@ -88,7 +90,10 @@ export default function Skills({ dict }: { dict: Dictionary['skills'] }) {
                 ) : (
                   <ul className="space-y-2.5">
                     {cat.items.map((item) => (
-                      <li key={item} className="text-sm md:text-base text-foreground flex items-start gap-2">
+                      <li
+                        key={item}
+                        className="text-sm md:text-base text-foreground flex items-start gap-2"
+                      >
                         <span className="w-1 h-1 rounded-full bg-muted mt-2 shrink-0" />
                         <span>{item}</span>
                       </li>
