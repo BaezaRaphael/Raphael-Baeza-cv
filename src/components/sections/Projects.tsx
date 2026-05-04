@@ -3,7 +3,7 @@ import type { Dictionary } from '@/app/[lang]/dictionaries';
 
 export default function Projects({ dict }: { dict: Dictionary['projects'] }) {
   return (
-    <section id="projects" className="py-32 px-6 max-w-6xl mx-auto">
+    <section id="projects" className="py-32 px-6 max-w-5xl mx-auto">
       <Reveal>
         <p className="text-xs font-mono uppercase tracking-[0.3em] text-subtle mb-4">
           {dict.kicker}
