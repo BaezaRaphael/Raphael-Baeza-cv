@@ -15,11 +15,6 @@ export default function Contact({
       href: 'https://www.linkedin.com/in/rapha%C3%ABl-ba%C3%ABza/',
       value: 'linkedin.com/in/raphaël-baëza',
     },
-    {
-      label: dict.github,
-      href: 'https://github.com/BaezaRaphael',
-      value: 'github.com/BaezaRaphael',
-    },
   ];
 
   return (
