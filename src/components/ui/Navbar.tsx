@@ -76,7 +76,7 @@ export default function Navbar({ dict, currentLang }: { dict: NavDict; currentLa
           </a>
           <ThemeToggle />
           <a
-            href="/CV-Raphael-Baeza.pdf"
+            href="/CV-Raphael.Baeza.pdf"
             download
             className="hidden sm:inline-block text-xs px-4 py-2 rounded-full border border-border-strong text-foreground hover:bg-accent hover:text-accent-foreground hover:border-accent transition-all"
           >
